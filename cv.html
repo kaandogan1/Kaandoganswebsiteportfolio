@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Kaan Dogan</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .cv-page {
+            min-height: 100vh;
+            background-color: #000;
+            padding-top: 80px;
+        }
+        
+        .cv-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        
+        .cv-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .cv-header h1 {
+            color: #fff;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .cv-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 3rem;
+        }
+        
+        .btn-download {
+            padding: 0.75rem 2rem;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            border: 2px solid #fff;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .btn-download:hover {
+            background-color: #000;
+            color: #fff;
+        }
+        
+        .cv-image-container {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+        }
+        
+        .cv-image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .back-to-portfolio {
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        .back-to-portfolio a {
+            color: #999;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .back-to-portfolio a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="index.html#portfolio">Work</a>
+                <a href="cv.html">CV</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="cv-page">
+        <div class="cv-container">
+            <div class="cv-header">
+                <h1>CV Page</h1>
+                <p style="color: #999;">Kaan Dogan - Digital Design Student</p>
+            </div>
+
+            <div class="cv-actions">
+                <a href="Kaan_Dogan_CV.png" download="Kaan_Dogan_CV.png" class="btn-download">
+                    Download CV
+                </a>
+            </div>
+
+            <div class="cv-image-container">
+                <img src="Kaan_Dogan_CV.png" alt="Kaan Dogan CV">
+            </div>
+
+            <div class="back-to-portfolio">
+                <a href="index.html">← Back to Portfolio</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
